@@ -78,6 +78,23 @@
     background-blend-mode: darken;
 }
 
+.link a:link{
+    text-decoration: none;
+    color:white;
+}
+
+.link a:hover{
+    text-decoration: none;
+    color: #f30303 ;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.link a:active{
+    text-decoration: none;
+    color:#600000 ;
+    font-family: 'Ubuntu', sans-serif;
+}
+
 .firstSection{
     height: 93vh;
 }
