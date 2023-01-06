@@ -125,7 +125,10 @@
 }
 .ULtext-Small{
     font-size: 15px;
-    text-align: left;
+    text-align: justify;
+    /* list-style-type:lower-roman; */
+    list-style-position:inside;
+    margin-left: %;
 }
 
 .btn{
