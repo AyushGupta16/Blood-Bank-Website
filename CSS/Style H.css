@@ -14,9 +14,9 @@
 
 .logo img{
     width: 26%;
-    border: 3px #f30303;
+    border: 3px solid #f30303;
     border-radius: 50px;
-    margin: 5px;
+    margin: 8px;
     
 }
 
@@ -26,7 +26,7 @@
     justify-content: center;
     position: sticky;
     top: 0;
-    cursor: pointer;
+    /* cursor: pointer; */
     background-color: black;
     transition: opacity 50% 2s;
 }
@@ -76,23 +76,6 @@
     background: rgba(0, 0, 0, 0.7) url('../images/bg1.jpg');
     background-size: cover;
     background-blend-mode: darken;
-}
-
-.link a:link{
-    text-decoration: none;
-    color:white;
-}
-
-.link a:hover{
-    text-decoration: none;
-    color: #f30303 ;
-    font-family: 'Ubuntu', sans-serif;
-}
-
-.link a:active{
-    text-decoration: none;
-    color:#600000 ;
-    font-family: 'Ubuntu', sans-serif;
 }
 
 .firstSection{
@@ -148,6 +131,26 @@
     /* margin-left: %; */
 }
 
+.link a{
+    text-decoration: none;
+    /* color:white; */
+}
+
+.link a:active{
+    text-decoration: none;
+    color:#600000 ;
+    /* font-family: 'Ubuntu', sans-serif; */
+}
+
+.btn a:hover{
+    color: #f30303;
+    border-color: #f30303;
+    text-decoration: none;
+    /* color: #f30303 ; */
+    /* font-family: 'Ubuntu', sans-serif; */
+    transition: 0.3s;
+}
+
 .btn{
     padding: 8px 20px;
     margin: 7px 3px;
@@ -155,15 +158,23 @@
     border-radius: 10px;
     font-size: 16px;
     background: none;
-    color: white;
+    color: white
+    text-decoration: none;
     cursor: pointer;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Ubuntu', sans-serif;    
 }
 
 .btn-sm{
     padding: 6px 10px;
     vertical-align: middle;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+.btn-dark{
+    color: white;
+    background-color: black;
+    border: solid black;
+    border-style: double;
 }
 
 .Section{
@@ -175,9 +186,9 @@
     margin:auto;
     padding: 0 40px;
     font-family: 'Ubuntu', sans-serif;
+    /* font-family: 'Oswald', sans-serif; */
     padding: 10px;
 }
-
 
 .headtext{
     font-size: 40px;
@@ -224,7 +235,6 @@
     padding-top: 10px ;
     font-family: 'Ubuntu', sans-serif;
     font-size: 35px;
-
 }
 
 .form{
@@ -241,11 +251,6 @@
     border: 2px solid grey;
     border-radius: 6px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.btn-dark{
-    color: black;
-    border: solid black;
 }
 
 .text-footer{
@@ -280,6 +285,12 @@
         height: 600px; 
         flex-direction: column;
          transition: all 0.7s ease-out;
+     }
+     .logo img{
+        width: 80%;
+        border: 3px solid #f30303;
+        border-radius: 50px;
+        margin: 5px;
      }
      .rightNav{
          text-align: center;
