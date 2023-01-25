@@ -1,5 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,400;1,200;1,300&family=Oswald:wght@300;400&family=Ubuntu:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,400;1,200;1,300&family=Oswald&family=Roboto+Mono:ital,wght@1,300&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -116,7 +119,7 @@
 
 .text-Big{
     font-size: 40px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Kanit', sans-serif    
     /* text-align: center; */
 }
 
@@ -126,28 +129,28 @@
 .ULtext-Small{
     font-size: 15px;
     text-align: justify;
+    font-family: 'Oswald', sans-serif;
     /* list-style-type:lower-roman; */
     list-style-position:inside;
     /* margin-left: %; */
 }
 
-.link a{
+.buttons a{
     text-decoration: none;
-    /* color:white; */
+    color:white;
 }
 
-.link a:active{
+.buttons a:active{
     text-decoration: none;
     color:#600000 ;
-    /* font-family: 'Ubuntu', sans-serif; */
+    font-family: 'Ubuntu', sans-serif;
 }
 
-.btn a:hover{
+.buttons a:hover{
     color: #f30303;
     border-color: #f30303;
     text-decoration: none;
-    /* color: #f30303 ; */
-    /* font-family: 'Ubuntu', sans-serif; */
+    font-family: 'Ubuntu', sans-serif;
     transition: 0.3s;
 }
 
