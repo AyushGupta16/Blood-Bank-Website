@@ -1,5 +1,5 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap'); */
-/* @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,400;1,200;1,300&family=Oswald:wght@300;400&family=Ubuntu:ital,wght@0,300;0,400;1,300;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,400;1,200;1,300&family=Oswald&family=Roboto+Mono:ital,wght@1,300&display=swap');
 
@@ -125,11 +125,12 @@
 
 .text-Small{
     font-size: 15px;
+    font-family: 'Roboto-Mono', sans-serif;
 }
 .ULtext-Small{
     font-size: 15px;
     text-align: justify;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     /* list-style-type:lower-roman; */
     list-style-position:inside;
     /* margin-left: %; */
@@ -169,6 +170,7 @@
 
 .btn-sm{
     padding: 6px 10px;
+    color: white;
     vertical-align: middle;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
 }
@@ -195,9 +197,9 @@
 
 .headtext{
     font-size: 40px;
-    font-family: "Proxima Nova","Proxima Nova Fallback",sans-serif;
+    /* font-family: "Proxima Nova","Proxima Nova Fallback",sans-serif; */
     text-align: center;
-    font-family: "Proxima Nova","Proxima Nova Fallback",sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
     /* font-size: 24px;*/
     line-height: 40px; 
@@ -221,6 +223,9 @@
 }
 
 .text-donate{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.text-eligible{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
